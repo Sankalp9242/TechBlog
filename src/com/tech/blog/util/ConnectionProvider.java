@@ -23,7 +23,7 @@ public class ConnectionProvider {
             if (con == null) {
             
                 //create a connection..
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/techBlog", "root", "Sankalp@9242");
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/techBlog", "root", "");
                 
             }
 
